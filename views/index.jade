@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  input(placeholder="Name")#input-name
+  input(placeholder="Todos")#input-task
+  button#submit-data Submit
+  p#feedback
+  input(placeholder="Search User")#search-name
+  button#search Search
+  div#user-info
+  h4(style="color:red")#task-del-feed
